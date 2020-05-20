@@ -1,0 +1,2 @@
+# Nutricate
+NUTRICATE = NUTRItion + eduCATE
