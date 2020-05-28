@@ -9,8 +9,32 @@
         <title>Spoonacular API FETCH</title>
     </head>
     <body>
-        <button id="getjson" onclick="getjson1()">Get JSON</button>
-        <div id="output"></div>
+        <input type="text" id="findfor">        
+        <button id="getjson" onclick="getjson1()">Get Nutrients</button>
+        <div id="output">
+            <table>
+                <tr>
+                    <th>Nutrient</th>
+                    <th>Amount Present</th>
+                </tr>
+                <tr>
+                    <td>Calories</td>
+                    <td id="1"></td>
+                </tr>
+                <tr>
+                    <td>Fat</td>
+                    <td id="2"></td>
+                </tr>
+                <tr>
+                    <td>Protein</td>
+                    <td id="3"></td>
+                </tr>
+                <tr>
+                    <td>Carbs</td>
+                    <td id="4"></td>
+                </tr>
+            </table>
+        </div>
         <!-- <script src='apifetch.js' type="text/javascript"></script> -->
     </body>
 </html>
