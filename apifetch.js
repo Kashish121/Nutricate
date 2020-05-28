@@ -1,4 +1,4 @@
-document.getElementById('getjson').addEventListener('click', getjson);
+document.getElementById('getjson').addEventListener('click', getjson());
 function getjosn() {
   var myHeaders = new Headers();
   myHeaders.append("Cookie", "__cfduid=dcfeba49845c9812e1f7950280e3ac0cd1590416809");
