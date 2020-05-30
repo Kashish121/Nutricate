@@ -1,5 +1,12 @@
 // document.getElementById('getjson').addEventListener('click', getjson());
+
+$(document).ready(function(){
+    $("#output").hide();
+});
+
 function getjson1(){
+    $("#output").show();
+    $(".form").hide();
     var query = document.getElementById('findfor').value;
     var url = "https://api.spoonacular.com/recipes/guessNutrition?title="+query+"&apiKey=35d3f922c81b4f0aa8297c313f1934cb"
 var settings = {
@@ -19,4 +26,8 @@ var settings = {
     document.getElementById('3').innerHTML=obj.protein.value+" "+obj.protein.unit;
     document.getElementById('4').innerHTML=obj.carbs.value+" "+obj.carbs.unit;
   });
+}
+function again(){
+    $("#output").hide();
+    $(".form").show();
 }
