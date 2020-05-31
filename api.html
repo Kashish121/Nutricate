@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='apijquery.js' type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="api-css.css" />
+        <title>Spoonacular API FETCH</title>
+    </head>
+    <body>
+        <div class="form">
+        <input type="text" id="findfor" placeholder="Seach food item">        
+        <button id="getjson" onclick="getjson1()">Search</button>
+        </div>
+        <div id="output">
+            <table cellspacing="0">
+                <tr>
+                    <th >Nutrient</th>
+                    <th >Amount</th>
+                </tr>
+                <tr>
+                    <td class="col1">Calories</td>
+                    <td id="1" class="col1"></td>
+                </tr>
+                <tr>
+                    <td class="col2">Fat</td>
+                    <td id="2" class="col2"></td>
+                </tr>
+                <tr>
+                    <td class="col1">Protein</td>
+                    <td id="3" class="col1"></td>
+                </tr>
+                <tr>
+                    <td class="col2">Carbs</td>
+                    <td id="4" class="col2"></td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="col1"><button onclick="again()" id="again">Search Item?</button></td>
+                </tr>
+            </table>
+        </div>
+        <!-- <script src='apifetch.js' type="text/javascript"></script> -->
+    </body>
+</html>

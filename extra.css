@@ -1,0 +1,14 @@
+.struct{
+    width: 40%; 
+    float:left; 
+    height:200px;
+    background-color: bisque;
+    margin:50px
+}
+body{
+    margin: 80px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-image: url("mainback2.jpg")
+}
