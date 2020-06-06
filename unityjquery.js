@@ -1,4 +1,5 @@
 function getnut() {
+    $(".form").hide();
     document.getElementById('output').innerHTML = ""
     var sample = document.getElementById('ip').value; //TAKE UNITY OUTPUT AS SAMPLE VALUE
     var main = "https://api.spoonacular.com/recipes/findByNutrients?"
