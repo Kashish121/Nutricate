@@ -25,3 +25,6 @@ Additionally, checking of metabolic parameters, including glucose, body weight,
 etc. when suitable, just as personal satisfaction, are basic to
 survey the requirement for changes in treatment and to guarantee effective
 results.
+
+## Contributors :trophy:
+Developed by [@Kashish121](https://github.com/Kashish)
